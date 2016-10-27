@@ -1,0 +1,18 @@
+# Change Log
+
+## v0.0.9
+### Added
+- CONTRIBUTING
+
+## v0.0.8
+### Added
+- 查看配置文件命令
+
+## v0.0.7
+### Added
+- make service命令
+- publish config命令
+- append config命令
+
+### Changed
+- config方式修改

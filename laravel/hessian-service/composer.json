@@ -1,0 +1,39 @@
+{
+    "name": "store59/hessian-service",
+    "homepage": "http://code.59store.com/erp/hessian-service",
+    "description": "php项目公用的规范化调用service类库",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "炒饭",
+            "email": "chensp@59store.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.*",
+        "store59/lib-hessian": "~0.1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HessianService59\\": "src"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        },
+        "lib-hessian": {
+            "type": "vcs",
+            "url": "git@code.59store.com:erp/lib-hessian.git"
+        }
+    }
+}
